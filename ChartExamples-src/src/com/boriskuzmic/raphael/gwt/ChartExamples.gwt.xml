@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='raphaelcharts'>
+  <inherits name='com.google.gwt.user.User'/> 
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+ 
+  <!-- Other module inherits                                      -->
+  <inherits name='com.hydro4ge.raphaelgwt.RaphaelGWT' />  
+ 
+  <entry-point class='com.boriskuzmic.raphael.gwt.client.ChartExamples'/>  
+ 
+  <source path='client'/>
+  <source path='charts'/>
+ 
+</module>
